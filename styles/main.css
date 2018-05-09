@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "nasa";
+  src: url("../files/nasa.ttf");
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header,
+section,
+div,
+footer {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 60px;
+  box-shadow: 0 3px 10px #a90c19;
+}
+
+/*  HEADER STYLES  */
+
+.header-banner {
+  width: 100%;
+}
+
+.logo {
+  max-height: 200px;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.header-title {
+  font-family: nasa, Arial, sans-serif;
+  font-size: 1em;
+  color: #a90c19;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: inline-block;
+}
+
+.header-subtitle {
+  font-family: "nasa", Arial, sans-serif;
+  font-size: 1em;
+  display: inline-block;
+  color: #a90c19;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+/*  MAIN STYLES */
+
+main {
+  width: 100%;
+}
+
+/*  ABOUT STYLES */
+
+.about {
+  width: 100%;
+  font-family: "nasa", Arial, sans-serif;
+  font-size: 1em;
+  color: #a90c19;
+  text-align: center;
+  display: inline-block;
+}
+
+.about p {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+/*  RESUME STYLES */
+
+.resume {
+  width: 100%;
+  font-family: "nasa", Arial, sans-serif;
+  font-size: 1em;
+  color: #a90c19;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+#MST {
+  width: 100%;
+  /*border: 2px solid #a90c19;*/
+  text-decoration: underline;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#SHPD {
+  width: 100%;
+  text-decoration: underline;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#GoG {
+  width: 100%;
+  text-decoration: underline;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#FEND {
+  width: 100%;
+  text-decoration: underline;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+/*  BILLBOARD SECTION STYLES */
+
+.billboard {
+  width: 100%;
+  background-image: url("../images/Moon.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 400px;
+  font-family: "nasa", Arial, sans-serif;
+  font-size: 1em;
+  color: #a90c19;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.tag-line {
+  padding-top: 100px;
+  font-size: 1em;
+}
+
+/*  PORTFOLIO SECTION STYLES */
+
+.portfolio {
+  width: 100%;
+  font-family: "nasa", Arial, sans-serif;
+  font-size: 1em;
+  color: #a90c19;
+  text-align: center;
+  display: inline-block;
+}
+
+.portfolio h1 {
+  text-align: center;
+}
+
+.project-box {
+  width: 95%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.project-box img {
+  width: 100%;
+  border: 3px solid #a90c19;
+  box-shadow: 2px 3px 10px rgba(5, 5, 5, 0.75);
+  margin-top: 10px;
+}
+
+.project-box p {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+p.title {
+  font-weight: bold;
+  font-family: "nasa", Arial, sans-serif;
+  font-size: 1em;
+  color: #a90c19;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-family: "nasa", Arial, sans-serif;
+  font-size: 1em;
+  color: #a90c19;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+  font-size: 1em;
+}
+
+footer a {
+  color: #a90c19;
+  text-decoration: none;
+}
+
+.attribution {
+  font-family: Arial, sans-serif;
+  color: #a90c19;
+  font-size: .6em;j
+  text-align: left;
+}
