@@ -4,6 +4,9 @@ Portfolio is a site developed as part of the Grow with Google Front-End Nanodegr
 
 The purpose of the site is to provide a central point to present my work to interested parties.
 
+Click the link to load: https://brewaskew.github.io/portfolio/
+or download/cloan the repo and open index.html from your local machine.
+
 # **Features**
 
 Portfolio is a single-page web-site that provides links to projects and web-sites I have created.
